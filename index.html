@@ -476,7 +476,6 @@ $('stages').addEventListener('click', e=>{
 });
 $('addStage').addEventListener('click', ()=>{ model.stages.push({id:newId(), crit:'emv', action:'keep', k:'2'}); renderStages(); update(); });
 
-['aiLink','aiLink2'].forEach(id=>$(id).href = AI_CONVERSATION_URL);
 load('coffee');
 })();
 </script>
